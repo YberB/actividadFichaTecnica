@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to bottom, #ffffff, #b3e0ff);  
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+img{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    width: 40%;
+
+}
+table ,th, td, tr{
+    border: 1px solid black;
+    min-width:  80%;
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 1em;
+    text-align: center;
+}
+.blurred-table {
+    filter: blur(0.5px); 
+}
+h1 {
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.styled-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px solid #007bff; 
+    background-color: #007bff; 
+    color: #fff; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 20px auto; 
+}
+
+.styled-button:hover {
+    background-color: #0056b3; 
+    border-color: #0056b3; 
+}
